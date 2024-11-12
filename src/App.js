@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import { Trash2, Plus } from 'lucide-react';
-import jsPDF from 'jspdf';
+//import jsPDF from 'jspdf';
 const CATEGORIAS = [
   { id: 'moradia', nome: 'Moradia', cor: '#FF6B6B' },
   { id: 'transporte', nome: 'Transporte', cor: '#4ECDC4' },
@@ -10,10 +10,10 @@ const CATEGORIAS = [
   { id: 'outros', nome: 'Outros', cor: '#D4A5A5' }
 ];
 
-const gerarRelatorioPDF = () => {
-  const pdf = new jsPDF();
+//const gerarRelatorioPDF = () => {
+ // const pdf = new jsPDF();
   // Resto do código
-};
+//};
 
 const CalculadoraDespesas = () => {
   const [salario, setSalario] = useState('0');
